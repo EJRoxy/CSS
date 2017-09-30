@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1,minimum-scale=1">
+    <title>定位</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            color: #fff;
+            background: #000;
+        }
+        fieldset {
+            margin: 20px 0;
+        }
+        .box {
+            background: #0a8;
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            color: white;
+        }
+        .outer {
+            height: 300px;
+            overflow: scroll;
+            padding-left: 150px;
+        }
+        .fixed {
+            position: fixed;
+            top: 80px;
+            left: 15px;
+        }
+        dl {
+            margin: 0;
+            padding: 24px 0 0 0;
+        }
+        dt {
+            position: sticky;
+            background-color: indianred;
+            color: #FFF;
+            margin: 0;
+            padding: 2px 0 0 12px;
+            position: -webkit-sticky;
+            position: sticky;
+            top: -1px;
+        }
+
+        dd {
+            margin: 0;
+            padding: 0 0 0 12px;
+            white-space: nowrap;
+        }
+
+        dd + dd {
+            border-top: 1px solid #CCC
+        }
+        .sticky {
+            height: 150px;
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+            <fieldset disabled="disabled">
+                <legend>position: fixed</legend>
+                <div class="outer">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam congue tortor eget pulvinar lobortis.
+                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam ac dolor augue.
+                            Pellentesque mi mi, laoreet et dolor sit amet, ultrices varius risus. Nam vitae iaculis elit.
+                            Aliquam mollis interdum libero. Sed sodales placerat egestas. Vestibulum ut arcu aliquam purus viverra dictum vel sit amet mi.
+                            Duis nisl mauris, aliquam sit amet luctus eget, dapibus in enim. Sed velit augue, pretium a sem aliquam, congue porttitor tortor.
+                            Sed tempor nisl a lorem consequat, id maximus erat aliquet. Sed sagittis porta libero sed condimentum.
+                            Aliquam finibus lectus nec ante congue rutrum. Curabitur quam quam, accumsan id ultrices ultrices, tempor et tellus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium omnis totam quisquam ea accusantium ad enim. Quis quasi eveniet dolorem in soluta quisquam adipisci modi sint? Distinctio accusamus consectetur numquam?</p>
+                    <div class="box fixed">fixed</div>
+                </div>
+            </fieldset>
+            <fieldset disabled="disabled">
+                <legend>position:sticky</legend>
+                <div class="sticky">
+                    <dl>
+                        <dt>A</dt>
+                        <dd>Andrew W.K.</dd>
+                        <dd>Apparat</dd>
+                        <dd>Arcade Fire</dd>
+                        <dd>At The Drive-In</dd>
+                        <dd>Aziz Ansari</dd>
+                    </dl>
+                    <dl>
+                        <dt>C</dt>
+                        <dd>Chromeo</dd>
+                        <dd>Common</dd>
+                        <dd>Converge</dd>
+                        <dd>Crystal Castles</dd>
+                        <dd>Cursive</dd>
+                    </dl>
+                    <dl>
+                        <dt>E</dt>
+                        <dd>Explosions In The Sky</dd>
+                    </dl>
+                    <dl>
+                        <dt>T</dt>
+                        <dd>Ted Leo & The Pharmacists</dd>
+                        <dd>T-Pain</dd>
+                        <dd>Thrice</dd>
+                        <dd>TV On The Radio</dd>
+                        <dd>Two Gallants</dd>
+                    </dl>
+                </div>
+            </fieldset>
+    </div>
+</body>
+</html>

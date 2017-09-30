@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>clip</title>
+    <style>
+        .test {
+            margin-top: 10px;
+            line-height: 50px;
+            font-size: 30px;
+            background: #f00;
+        }
+        .clip {
+            position: fixed;
+            clip: rect(0 auto 40px 10px);
+        }
+    </style>
+</head>
+<body>
+<div class="test">看看被剪切后的效果</div>
+<div class="test clip">看看被剪切后的效果</div>
+</body>
+</html>

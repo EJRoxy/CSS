@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+    <title>border-image</title>
+    <style>
+        body {
+            background: #000;
+            color: #fff;
+        }
+        div {
+            border: 20px solid transparent;
+            width: 300px;
+            padding: 20px;
+            margin: 30px;
+        }
+        .round {
+            -webkit-border-image: url(border.png) 27 27 round;
+            -moz-border-image: url(border.png) 27 27 round;
+            -o-border-image: url(border.png) 27 27 round;
+            border-image: url(border.png) 27 27 round;
+        }
+        .stretch {
+            -webkit-border-image: url(border.png) 27 27 stretch;
+            -moz-border-image: url(border.png) 27 27 stretch;
+            -o-border-image: url(border.png) 27 27 stretch;
+            border-image: url(border.png) 27 27 stretch;
+        }
+        .repeat {
+            -webkit-border-image: url(border.png) 27 27 repeat;
+            -moz-border-image: url(border.png) 27 27 repeat;
+            -o-border-image: url(border.png) 27 27 repeat;
+            border-image: url(border.png) 27 27 repeat;
+        }
+        .space {
+            -webkit-border-image: url(border.png) 27 27 space;
+            -moz-border-image: url(border.png) 27 27 space;
+            -o-border-image: url(border.png) 27 27 space;
+            border-image: url(border.png) 27 27 space;
+        }
+        .outset {
+            border-image-source: url("border.png");
+            border-image-slice: 27;
+            border-image-repeat: space;
+            border-image-outset: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="round">
+        border-image-slice: round;
+        图片平铺以填充该区域
+    </div>
+    <div class="stretch">
+        border-image-slice: stretch;
+        图片拉伸以填充该区域
+    </div>
+    <div class="repeat">
+        border-image-slice: repeat;
+        图片重复像贴地板砖一样
+    </div>
+    <div class="space">
+        border-image-slice: space;
+        图片会根据边框的尺寸动态调整图片的之间的间距直至正好可以铺满整个边框
+    </div>
+    <div class="outset">
+        border-image-outset: 20px;
+        设置或检索对象的边框背景图的扩展。
+        该属性用于指定边框图像向外扩展所定义的数值，即如果值为10px，则图像在原本的基础上往外延展10px再显示。
+    </div>
+</body>
+</html>

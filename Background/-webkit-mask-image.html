@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>18. 文本渐变</title>
+	<style>
+		h2[data-text] {
+		  position: relative;
+		  margin: 0;
+		}
+		h2[data-text]::after {
+		  content: attr(data-text);
+		  z-index: 10;
+		  color: #1b6aef;
+		  position: absolute;
+		  top: 30px;
+		  left: 0;
+		  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), color-stop(50%, rgba(0,0,0,1)), to(rgba(0,0,0,0)));}
+	</style>
+</head>
+<body>
+		<h2 data-text="测试中文文本渐变">哈哈哈哈哈</h2>
+		<h2 data-text="tLorem ipsum dolor sit amet, consectetur adipisicing elit. Harum in laboriosam, maxime quibusdam corrupti voluptas optio sequi omnis ipsam animi, temporibus aut modi, totam eligendi quas inventore repellat autem cumque."></h2>
+</body>
+</html>

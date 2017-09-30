@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="../css/reset.css">
+    <title>repeating-linear-gradient CSS3多背景</title>
+    <style>
+        select {
+            width: 100%;
+            /*注意在下拉框中，width是包括border的宽度的*/
+            height: 45px;
+            border-radius: 5px;
+            border: 1px solid goldenrod;
+            background-color: white;
+            background-repeat: no-repeat;
+            /*背景图像的尺寸：第一个值为宽度，第二值为高度*/
+
+            background-size: 8px 8px, 8px 8px, 45px 45px, 1px 45px;
+            /*背景图片：多张图片用","分割*/
+            /*repeating-linear-gradient() 函数用于重复线性渐变：参数分别为角度，颜色1，颜色2,...*/
+
+            background-image: repeating-linear-gradient(225deg, #f04b3f, rgb(105, 123, 149) 50%, transparent 50%, transparent 100%),
+            /*组合成三角形图标*/
+
+            repeating-linear-gradient(135deg, rgb(105, 123, 149) 0%, rgb(105, 123, 149) 50%, transparent 50%, transparent 100%),
+            /*组合成三角形图标*/
+
+            linear-gradient(rgba(0,0,0,.5) 0%, #F8F9Fd, #EFFAFA 100%),
+            /*竖分割线右侧的背景色*/
+
+            repeating-linear-gradient( #00f 0%, #00f 100%);
+            /*repeating-linear-gradient( rgb(191, 204, 220) 0%, rgb(191, 204, 220) 100%);*/
+            /*竖分割线*/
+            /*背景图片的位置：第一个参数为水平位置，第二参数为垂直位置*/
+
+            background-position: calc(100% - 22px) calc(50% - .125em), calc(100% - 14px) calc(50% - .125em), right center, calc(100% - 45px) bottom;
+            appearance: none;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+        }
+        .test1 {
+            margin: 20px 0;
+            height: 10rem;
+            border: 2px solid rgba(0,0,0,.5);
+            background: repeating-linear-gradient(135deg, #0092b7 calc(50% - .125em), #000 0, #000 calc(50% + .125em), #0092b7 0),
+                        repeating-linear-gradient(45deg,#0fbca6 0%, #00b4cb 0, #00b4cb 10px, #0fbca6);
+        }
+    </style>
+</head>
+<body>
+<select name="" id="">
+    <option value="">请选择</option>
+    <option value="">苹果</option>
+    <option value="">香蕉</option>
+    <option value="">橘子</option>
+    <option value="">牛奶</option>
+</select>
+<div class="test1">
+
+</div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+    <title>border-radius</title>
+    <style>
+        .wrap {
+            padding: 200px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color: #00aa88;
+        }
+        .wrap:hover {
+            -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+            -webkit-filter: brightness(120%);
+
+        }
+        .box {
+            margin: 10px;
+            border: 5px solid #f25776;
+            background: #fff;
+        }
+        .box1 {
+            width: 200px;
+            height: 100px;
+            -webkit-border-radius: 0px 50px 32px/28px 50px 70px;;
+            -moz-border-radius: 0px 50px 32px/28px 50px 70px;;
+            border-radius: 0px 50px 32px/28px 50px 70px;;
+        }
+        .box2 {
+            width: 100px;
+            height: 200px;
+            -webkit-border-radius: 26px 106px 162px 32px/28px 80px 178px 26px;
+            -moz-border-radius: 26px 106px 162px 32px/28px 80px 178px 26px;
+            border-radius: 26px 106px 162px 32px/28px 80px 178px 26px;
+        }
+        .box3 {
+            width: 100px;
+            height: 200px;
+            -webkit-border-radius: 20px 50px /20px 50px;
+            -moz-border-radius: 20px 50px /20px 50px;
+            border-radius: 20px 50px /20px 50px;
+        }
+        .box4 {
+            width: 200px;
+            height: 200px;
+            border: 30px solid;
+            border-radius: 84px 292px 222px 112px/146px 272px 194px 300px;
+            border-color: red transparent transparent transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+</body>
+</html>

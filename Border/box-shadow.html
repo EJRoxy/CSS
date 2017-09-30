@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width",initial-scale="1">
+    <title>box-shadow</title>
+    <style>
+        .single-shadow {
+            margin: 10px;
+            border: 1px solid #0a8;
+            height: 100px;
+            box-shadow:16px 0 21px -14px #2f2f2f inset;
+        }
+
+        .both-shadow {
+            margin: 10px;
+            border: 1px solid #0a8;
+            height: 100px;
+            box-shadow:16px 10px 21px -14px #2f2f2f inset;
+        }
+        .all-shadow {
+            margin: 10px;
+            border: 1px solid #0a8;
+            height: 100px;
+            box-shadow:0 0 21px #2f2f2f inset;
+        }
+        .spread {
+            margin: 10px;
+            border: 1px solid #0a8;
+            height: 100px;
+            box-shadow: 5px 0px 0px 1px #2f2f2f;
+        }
+        .Multiple-shadow {
+            margin: 10px;
+            border: 1px solid #0a8;
+            height: 100px;
+            box-shadow:5px 0px 10px -5px #f00, 17px -1px 16px -12px #0a8 inset;
+        }
+
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>语法：box-shadow: h-shadow v-shadow blur spread color inset;</legend>
+        <div class="single-shadow">测试单边阴影</div>
+        <div class="both-shadow">测试双边阴影</div>
+        <div class="all-shadow">测试阴影四周</div>
+        <div class="spread">测试阴影的尺寸</div>
+        <div class="Multiple-shadow">
+            测试多个阴影
+        </div>
+    </fieldset>
+</body>
+</html>
