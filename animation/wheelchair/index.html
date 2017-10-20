@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Title</title>
+    <style>
+        /*动画start*/
+        .scroll-bg {
+            display: flex;
+            margin: 0 auto;
+            overflow: hidden;
+            position: relative;
+        }
+        .bg-ani {
+            flex-shrink: 0;
+            -webkit-flex-shrink: 0;
+            width: 750px;
+            height: 163px;
+            position: relative;
+            -webkit-animation: bg-scroll 12s infinite linear;
+            animation: bg-scroll 12s infinite linear;
+            white-space: nowrap;
+        }
+        @keyframes bg-scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-100%); } }
+        @-webkit-keyframes bg-scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-100%); } }
+        .wrap-ani {
+            position: absolute;
+            top: 263px;
+            right: 0;
+            left: 0;
+        }
+        .box-chair {
+            display: inline-block;
+            position: absolute;
+            bottom: 0;
+            -webkit-animation: chairMove 2s ease-out forwards;
+            animation: chairMove 2s ease-out forwards;
+        }
+        .img-chair {
+            width: 120px;
+            height: 111px;
+        }
+        .img-wheel {
+            width: 63px;
+            height: 63px;
+        }
+        @-webkit-keyframes chairMove {
+            0% {
+                left: 55px;
+            }
+            100% {
+                left: 128px;
+            }
+        }
+        @keyframes chairMove {
+            0% {
+                left: 55px;
+            }
+            100% {
+                left: 128px;
+            }
+        }
+        .img-wheel {
+            position: absolute;
+            left: 5px;
+            bottom: 3px;
+        }
+        .ani-wheel {
+            -webkit-animation: turnAround 5s linear infinite;
+            animation: turnAround 5s linear infinite;
+        }
+        @-webkit-keyframes turnAround {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes turnAround {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        .wrap-ani-txt {
+            position: absolute;
+            top: 446px;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+        .ani-txt {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: block;
+            font-size: 15px;
+            line-height: 25px;
+            opacity: 1;
+            overflow:hidden;
+            animation: rotateWord 8s linear infinite 0s;
+        }
+        .ani-txt1 {
+            animation-delay: -0.2s;
+        }
+        .ani-txt2 {
+            opacity: 0;
+            animation-delay: 4s;
+        }
+        @-webkit-keyframes rotateWord {
+            0% { opacity: 0; }
+            5% {opacity: .5;}
+            15% { opacity: .8; }
+            37% { opacity: 1;}
+            40% { opacity: .5;}
+            50% { opacity: 0;}
+            75% { opacity: 0; }
+            100% { opacity: 0; }
+        }
+        @keyframes rotateWord {
+            0% { opacity: 0; }
+            5% {opacity: .5;}
+            15% { opacity: .8; }
+            37% { opacity: 1;}
+            40% { opacity: .5;}
+            50% { opacity: 0;}
+            75% { opacity: 0; }
+            100% { opacity: 0; }
+        }
+        /*动画end*/
+    </style>
+</head>
+<body>
+    <!--动画部分 start-->
+    <div class="wrap-ani">
+        <div class="scroll-bg">
+            <img class="bg-ani" src="http://img.benmu-health.com/wechatV2-mina/wheelChair/ani-bg.png">
+            <img class="bg-ani" src="http://img.benmu-health.com/wechatV2-mina/wheelChair/ani-bg.png">
+        </div>
+        <div class="box-chair">
+            <img class="img-chair" src="http://img.benmu-health.com/wechatV2-mina/wheelChair/wheelchair.png">
+            <img class="img-wheel ani-wheel" src="http://img.benmu-health.com/wechatV2-mina/wheelChair/wheel.png">
+        </div>
+    </div>
+    <div class="wrap-ani-txt">
+        <div class="ani-txt ani-txt1">
+            <div>每天免费使用3小时</div>
+            <div>3小时候按1元/10分钟计费</div>
+        </div>
+        <div class="ani-txt ani-txt2">请勿将轮椅驶出医院</div>
+    </div>
+    <!--动画部分 end-->
+</body>
+</html>
