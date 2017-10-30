@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .step {
+            margin: 150px auto;
+            width: 50px;
+            height: 72px;
+            overflow: hidden;
+        }
+        .ani-1 {
+            animation: steps 1s steps(10,end) backwards;
+            /*animation-iteration-count: infinite; 循环播放*/
+        }
+        @keyframes steps {
+            to {
+                transform: translate3d(-500px,0,0);
+            }
+        }
+        .play {
+            margin: 0 auto;
+            width: 88.83px;
+            height: 54px;
+            overflow: hidden;
+        }
+        .ani-2 {
+            animation: play .4s steps(6,end) infinite;
+        }
+        @keyframes play {
+            to {
+                transform: translateX(-533px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="step">
+        <img class="ani-1" src="../materials/sprite-steps.png">
+    </div>
+    <div class="play">
+        <img class="ani-2" src="../materials/black-human.png">
+    </div>
+</body>
+</html>
