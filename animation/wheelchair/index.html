@@ -18,9 +18,12 @@
             width: 750px;
             height: 163px;
             position: relative;
-            -webkit-animation: bg-scroll 12s infinite linear;
-            animation: bg-scroll 12s infinite linear;
+            -webkit-animation: bg-scroll 2s  linear infinite forwards;
+            animation: bg-scroll 2s  linear infinite forwards;
             white-space: nowrap;
+        }
+        .ani-2 {
+            animation-delay : -2s;
         }
         @keyframes bg-scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-100%); } }
         @-webkit-keyframes bg-scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-100%); } }

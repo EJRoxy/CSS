@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c4c4b10-de53-4dd8-b263-8bd0421eb546" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animation/materials/black-human.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animation/materials/sprite-steps.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Segment-line/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animation/steps/Alarm-clock.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animation/steps/Progress-Circle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animation/steps/steps.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/Rotating-words.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animation/.idea/workspace.xml" afterPath="$PROJECT_DIR$/animation/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animation/materials/ani-bg-repeat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animation/materials/star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animation/CSS3美化半个字符.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animation/jquery-3.2.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animation/start评分.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animation/steps/steps2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animation/走马灯.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animation/走马灯2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animation/steps/Alarm-clock.html" afterPath="$PROJECT_DIR$/animation/steps/Alarm-clock.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animation/wheelchair/index.html" afterPath="$PROJECT_DIR$/animation/wheelchair/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,20 +30,55 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="steps.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/animation/steps/steps.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/animation/wheelchair/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="190">
+              <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <folding>
+                <element signature="e#1976#2103#0" expanded="false" />
+                <element signature="e#2112#2677#0" expanded="false" />
+                <element signature="e#2686#3243#0" expanded="false" />
+                <element signature="e#3266#3408#0" expanded="false" />
+                <element signature="e#3426#3730#0" expanded="false" />
+                <element signature="e#3749#3796#0" expanded="false" />
+                <element signature="e#3815#3883#0" expanded="false" />
+                <element signature="e#3892#4186#0" expanded="false" />
+                <element signature="e#4195#4481#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="走马灯.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animation/走马灯.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start评分.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animation/start评分.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="black-human.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/animation/materials/black-human.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="CSS3美化半个字符.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animation/CSS3美化半个字符.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="21" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -56,7 +94,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>line_04</find>
-      <find>demo</find>
       <find>demo-container</find>
       <find>line_01</find>
       <find>rotateWordsSecond</find>
@@ -65,6 +102,20 @@
       <find>twenty</find>
       <find>21600</find>
       <find>infin</find>
+      <find>86400</find>
+      <find>rotateWord</find>
+      <find>rw-words-2</find>
+      <find>tick-tock</find>
+      <find>smaller</find>
+      <find>MyMar</find>
+      <find>demo2</find>
+      <find>items</find>
+      <find>container</find>
+      <find>head</find>
+      <find>body</find>
+      <find>html</find>
+      <find>demo</find>
+      <find>bg-scroll</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -74,11 +125,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Segment-line/index.html" />
-        <option value="$PROJECT_DIR$/text/Rotating-words.html" />
         <option value="$PROJECT_DIR$/animation/Alarm-clock.html" />
-        <option value="$PROJECT_DIR$/animation/steps/Alarm-clock.html" />
         <option value="$PROJECT_DIR$/animation/steps/Progress-Circle.html" />
         <option value="$PROJECT_DIR$/animation/steps/steps.html" />
+        <option value="$PROJECT_DIR$/text/Rotating-words.html" />
+        <option value="$PROJECT_DIR$/animation/steps/steps2.html" />
+        <option value="$PROJECT_DIR$/animation/steps/Alarm-clock.html" />
+        <option value="$PROJECT_DIR$/animation/走马灯2.html" />
+        <option value="$PROJECT_DIR$/animation/wheelchair/index.html" />
+        <option value="$PROJECT_DIR$/animation/CSS3美化半个字符.html" />
+        <option value="$PROJECT_DIR$/../../code/wechat/走马灯.html" />
+        <option value="$PROJECT_DIR$/animation/走马灯.html" />
+        <option value="$PROJECT_DIR$/animation/start评分.html" />
       </list>
     </option>
   </component>
@@ -107,7 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -130,6 +187,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="text" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="animation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -148,7 +219,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="steps" />
+              <option name="myItemId" value="wheelchair" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -173,6 +244,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,11 +259,13 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/animation" />
+      <recent name="$PROJECT_DIR$/animation/wheelchair" />
+      <recent name="$PROJECT_DIR$/animation/steps" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/animation/materials" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/animation/steps" />
     </key>
   </component>
   <component name="RunManager">
@@ -266,18 +340,23 @@
       <option name="presentableId" value="Default" />
       <updated>1508988209188</updated>
       <workItem from="1508988211288" duration="9587000" />
-      <workItem from="1509104093676" duration="5350000" />
+      <workItem from="1509104093676" duration="6628000" />
+      <workItem from="1509528071881" duration="2568000" />
+      <workItem from="1509587440328" duration="6596000" />
+      <workItem from="1510220199395" duration="8026000" />
+      <workItem from="1510303722732" duration="2388000" />
+      <workItem from="1510731245267" duration="471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14937000" />
+    <option name="totallyTimeSpent" value="36264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22647528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21132377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -306,15 +385,71 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/text/Rotating-words.html">
+    <entry file="file://$PROJECT_DIR$/animation/wheelchair/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="38">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <element signature="e#1976#2103#0" expanded="false" />
+            <element signature="e#2112#2677#0" expanded="false" />
+            <element signature="e#2686#3243#0" expanded="false" />
+            <element signature="e#3266#3408#0" expanded="false" />
+            <element signature="e#3426#3730#0" expanded="false" />
+            <element signature="e#3749#3796#0" expanded="false" />
+            <element signature="e#3815#3883#0" expanded="false" />
+            <element signature="e#3892#4186#0" expanded="false" />
+            <element signature="e#4195#4481#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation/走马灯.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation/CSS3美化半个字符.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation/steps/Alarm-clock.html">
+    <entry file="file://$PROJECT_DIR$/animation/wheelchair/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="e#1976#2103#0" expanded="false" />
+            <element signature="e#2112#2677#0" expanded="false" />
+            <element signature="e#2686#3243#0" expanded="false" />
+            <element signature="e#3266#3408#0" expanded="false" />
+            <element signature="e#3426#3730#0" expanded="false" />
+            <element signature="e#3749#3796#0" expanded="false" />
+            <element signature="e#3815#3883#0" expanded="false" />
+            <element signature="e#3892#4186#0" expanded="false" />
+            <element signature="e#4195#4481#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation/走马灯.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation/CSS3美化半个字符.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -322,11 +457,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/animation/materials/sprite-steps.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation/steps/steps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation/steps/Alarm-clock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/Rotating-words.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation/steps/steps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/Rotating-words.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation/steps/Alarm-clock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/legacy.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="296" column="22" lean-forward="false" selection-start-line="296" selection-start-column="22" selection-end-line="296" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -351,26 +532,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation/wheelchair/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/animation/materials/black-human.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/text/Rotating-words.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="1137">
+          <caret line="216" column="34" lean-forward="true" selection-start-line="216" selection-start-column="34" selection-end-line="216" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/animation/steps/Progress-Circle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
+        <state relative-caret-position="-22">
           <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation/materials/scan.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation/steps/steps2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="228" column="16" lean-forward="false" selection-start-line="228" selection-start-column="16" selection-end-line="228" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation/走马灯2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="66" column="12" lean-forward="false" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation/steps/Alarm-clock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation/steps/steps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -379,24 +597,48 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation/steps/Alarm-clock.html">
+    <entry file="file://$PROJECT_DIR$/animation/CSS3美化半个字符.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="153" column="56" lean-forward="false" selection-start-line="153" selection-start-column="51" selection-end-line="153" selection-end-column="56" />
+        <state relative-caret-position="551">
+          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation/materials/black-human.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/../../code/wechat/走马灯.html" />
+    <entry file="file://$PROJECT_DIR$/animation/走马灯.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation/steps/steps.html">
+    <entry file="file://$PROJECT_DIR$/animation/start评分.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="532">
+          <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation/wheelchair/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#1976#2103#0" expanded="false" />
+            <element signature="e#2112#2677#0" expanded="false" />
+            <element signature="e#2686#3243#0" expanded="false" />
+            <element signature="e#3266#3408#0" expanded="false" />
+            <element signature="e#3426#3730#0" expanded="false" />
+            <element signature="e#3749#3796#0" expanded="false" />
+            <element signature="e#3815#3883#0" expanded="false" />
+            <element signature="e#3892#4186#0" expanded="false" />
+            <element signature="e#4195#4481#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #demo1,#demo2 {
+            display: table-cell;
+        }
+    </style>
+</head>
+<body>
+<!-- 走马灯效果 -->
+    <div id="demo" style="overflow:hidden;">
+        <div id="demo1">
+            <image class="bg-ani" src="http://img.benmu-health.com/wechatV2-mina/wheelChair/ani-bg.png"></image>
+        </div>
+        <div id="demo2"></div>
+    </div>
+<script>
+    var speed=2;
+    function Marquee(){
+        demo2.innerHTML=demo1.innerHTML
+        if(demo2.offsetWidth-demo.scrollLeft<=0)
+            demo.scrollLeft-=demo1.offsetWidth
+        else{
+            demo.scrollLeft++
+        }
+    }
+    var MyMar=setInterval(Marquee,speed)
+//    demo.onmouseover=function() {clearInterval(MyMar);}
+//    demo.onmouseout=function() {MyMar=setInterval(Marquee,speed);}
+
+//    function bigger(){
+//        img.style.width = '400px';
+//        img.style.height = '400px';
+//    }
+//
+//    function smaller(){
+//        img.style.width = '100px';
+//        img.style.height = '100px';
+//    }
+
+</script>
+<!-- end 走马灯效果 -->
+</body>
+</html>

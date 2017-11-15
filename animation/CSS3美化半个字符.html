@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3美化半个字符</title>
+    <style>
+        .halfStyle {
+            position:relative;
+            display:inline-block;
+            font-size:80px; /*  任何宽度都可以 */
+            color: transparent; /* 任何颜色，或透明 */
+            overflow:hidden;
+            white-space: pre; /* 处理空格 */
+        }
+        .halfStyle:before {
+            left:0;
+            content: attr(data-content); /* 伪元素的动态获取内容 */
+            overflow:hidden;
+            color: #f00;
+            pointer-events: none; /* so the base char is selectable by mouse */
+            display:block;
+            z-index:1;
+            position:absolute;
+            top:0;
+            width: 50%;
+            text-shadow: 2px -2px 0px pink; /* for demo purposes */
+        }
+        .halfStyle:after { /* creates the right part */
+            display:block;
+            direction: rtl; /* very important, will make the width to start from right */
+            position:absolute;
+            z-index:2;
+            top:0;
+            left:50%;
+            width: 50%;
+            content: attr(data-content); /* dynamic content for the pseudo element */
+            overflow:hidden;
+            pointer-events: none; /* so the base char is selectable by mouse */
+            color: #000; /* for demo purposes */
+            text-shadow: 2px 2px 0px #0af; /* for demo purposes */
+        }
+        你会发现，我
+    </style>
+</head>
+<body>
+    <p>单个字符</p>
+    <span class="halfStyle lazy " data-content="风">风</span>
+    <span class="halfStyle lazy " data-content="流">流</span>
+    <span class="halfStyle lazy " data-content="倜">倜</span>
+    <span class="halfStyle lazy " data-content="傥">傥</span>
+
+    <hr/>
+    <p>用脚本自动美化：</p>
+
+    <span class="textToHalfStyle lazy ">恋爱容易婚姻不易，且行且珍惜。</span>
+</body>
+</html>
